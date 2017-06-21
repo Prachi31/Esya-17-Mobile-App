@@ -20,7 +20,7 @@ package prachi14075.iiitd.ac.in.myapplication;
 public class SplashActivity extends Activity {
 
     // Splash screen timer
-    private static int SPLASH_TIME_OUT = 7000;
+    private static int SPLASH_TIME_OUT = 3000;
     private KenBurnsView mKenBurns;
 
     @Override
