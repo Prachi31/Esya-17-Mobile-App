@@ -19,4 +19,7 @@
 
     <color name="blue">#2e60bb</color>
     <color name="gray">#e2e6e9</color>
+    <color name="primary">#009688</color>
+    <color name="primaryDark">#00796b</color>
+    <color name="accentLight">#F4FF81</color>
 </resources>

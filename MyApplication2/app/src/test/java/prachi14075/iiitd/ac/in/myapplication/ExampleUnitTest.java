@@ -2,6 +2,7 @@ package prachi14075.iiitd.ac.in.myapplication;
 
 import org.junit.Test;
 
+import static junit.framework.Assert.assertEquals;
 import static org.junit.Assert.*;
 
 /**

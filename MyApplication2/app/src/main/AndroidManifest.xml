@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -40,11 +41,20 @@
         <activity
             android:name=".FourthActivity"
             android:label="four" />
-        <activity android:name=".event_details" />
-        <activity android:name=".event5"></activity>
+        <activity android:name=".event5" />
+        <activity
+            android:name=".event_detail"
+            android:label="events" />
+        <activity
+            android:name=".event_detail2"
+            android:label="Circuitrix" />
+
+
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="29cbd600bb8183011201895a931db91e93f2d614" />
+
+
     </application>
-    <uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>

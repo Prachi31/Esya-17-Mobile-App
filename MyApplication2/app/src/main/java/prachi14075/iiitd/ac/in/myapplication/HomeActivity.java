@@ -64,5 +64,15 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(homeIntent);
             }
         });
+
+        Button edp = (Button) findViewById(R.id.edp);
+
+        edp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent homeIntent = new Intent(getApplicationContext(), event_detail2.class);
+                startActivity(homeIntent);
+            }
+        });
     }
 }
