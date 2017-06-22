@@ -16,4 +16,7 @@
     <color name="accent_pressed">#C2185B</color>
     <color name="colorTextPrimary">#212121</color>
     <color name="colorTextSecondary">#727272</color>
+
+    <color name="blue">#2e60bb</color>
+    <color name="gray">#e2e6e9</color>
 </resources>

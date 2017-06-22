@@ -53,5 +53,16 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(homeIntent);
             }
         });
+
+
+        Button evnt5 = (Button) findViewById(R.id.evnt5);
+
+        evnt5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent homeIntent = new Intent(getApplicationContext(), event5.class);
+                startActivity(homeIntent);
+            }
+        });
     }
 }

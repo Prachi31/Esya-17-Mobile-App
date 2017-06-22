@@ -33,13 +33,18 @@
             android:label="events" />
         <activity
             android:name=".events_page"
-            android:label="ESYA'17 EVENTS" />
+            android:label="ESYA&apos;17 EVENTS" />
         <activity
             android:name=".ThirdActivity"
             android:label="event" />
         <activity
             android:name=".FourthActivity"
             android:label="four" />
+        <activity android:name=".event_details" />
+        <activity android:name=".event5"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="29cbd600bb8183011201895a931db91e93f2d614" />
     </application>
-
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>

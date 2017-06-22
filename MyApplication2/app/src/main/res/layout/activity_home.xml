@@ -46,4 +46,24 @@
         android:layout_marginBottom="64dp"
         android:text="event 4" />
 
+    \
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/evnt"
+        android:layout_below="@+id/edp"
+        android:layout_marginTop="92dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/evnt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event5"
+        android:layout_above="@+id/evnt3"
+        android:layout_alignStart="@+id/evnt3"
+        android:layout_marginBottom="12dp" />
+
 </RelativeLayout>
