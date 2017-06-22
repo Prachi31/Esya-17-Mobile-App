@@ -28,4 +28,22 @@
         android:layout_centerHorizontal="true"
         android:text="EVENT2" />
 
+    <Button
+        android:id="@+id/evnt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/evnt2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:text="Event3" />
+
+    <Button
+        android:id="@+id/evnt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/evnt2"
+        android:layout_alignEnd="@+id/evnt2"
+        android:layout_marginBottom="64dp"
+        android:text="event 4" />
+
 </RelativeLayout>
