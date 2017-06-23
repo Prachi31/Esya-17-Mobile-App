@@ -49,12 +49,11 @@
             android:name=".event_detail2"
             android:label="Circuitrix" />
 
-
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="29cbd600bb8183011201895a931db91e93f2d614" />
 
-
+        <activity android:name=".event_detail3"></activity>
     </application>
 
 </manifest>

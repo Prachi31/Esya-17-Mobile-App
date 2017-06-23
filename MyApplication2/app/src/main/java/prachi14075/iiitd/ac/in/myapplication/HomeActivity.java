@@ -70,7 +70,7 @@ public class HomeActivity extends AppCompatActivity {
         edp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent homeIntent = new Intent(getApplicationContext(), event_detail2.class);
+                Intent homeIntent = new Intent(getApplicationContext(), event_detail3.class);
                 startActivity(homeIntent);
             }
         });
