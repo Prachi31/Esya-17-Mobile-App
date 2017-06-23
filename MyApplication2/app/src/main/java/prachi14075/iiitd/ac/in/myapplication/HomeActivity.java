@@ -49,7 +49,7 @@ public class HomeActivity extends AppCompatActivity {
         evnt4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent homeIntent = new Intent(getApplicationContext(), FourthActivity.class);
+                Intent homeIntent = new Intent(getApplicationContext(), fourup.class);
                 startActivity(homeIntent);
             }
         });

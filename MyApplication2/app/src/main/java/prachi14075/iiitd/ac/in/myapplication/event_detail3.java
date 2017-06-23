@@ -14,6 +14,7 @@ public class event_detail3 extends AppCompatActivity {
     RecyclerView.LayoutManager layoutManager;
     String[] text=new String[5];
     ArrayList<detail> list=new ArrayList<detail>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

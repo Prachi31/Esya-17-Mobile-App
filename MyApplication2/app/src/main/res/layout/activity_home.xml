@@ -44,7 +44,7 @@
         android:layout_above="@+id/evnt2"
         android:layout_alignEnd="@+id/evnt2"
         android:layout_marginBottom="64dp"
-        android:text="event 4" />
+        android:text="event 4 Fixed for level 2(final)" />
 
 
     <Button
