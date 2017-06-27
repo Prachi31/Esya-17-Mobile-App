@@ -21,7 +21,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import io.fabric.sdk.android.Fabric;
 
-public class event5 extends AppCompatActivity {
+public class event5_1 extends AppCompatActivity {
 
     int pageCount = 20;
     int pp=1;
@@ -42,7 +42,7 @@ public class event5 extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setSupportActionBar(toolbar);
         toolbar.setNavigationIcon(R.drawable.abc_ic_ab_back_material);
-        getSupportActionBar().setTitle("Event Details");
+        getSupportActionBar().setTitle("Events Details");
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,6 +52,7 @@ public class event5 extends AppCompatActivity {
         });
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
+
 
         hollyViewPager.getViewPager().setPageMargin(getResources().getDimensionPixelOffset(R.dimen.viewpager_margin));
         hollyViewPager.setConfigurator(new HollyViewPagerConfigurator() {
@@ -64,8 +65,8 @@ public class event5 extends AppCompatActivity {
         hollyViewPager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int position) {
-//                    return new RecyclerViewFragment();
-                return ScrollViewFragment.newInstance((String) getPageTitle(position));
+                return new RecyclerViewFragment();
+//                return ScrollViewFragment.newInstance((String) getPageTitle(position));
             }
 
             @Override

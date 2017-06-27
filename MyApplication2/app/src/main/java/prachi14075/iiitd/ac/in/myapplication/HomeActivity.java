@@ -55,22 +55,31 @@ public class HomeActivity extends AppCompatActivity {
         });
 
 
-        Button evnt5 = (Button) findViewById(R.id.evnt5);
-
-        evnt5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent homeIntent = new Intent(getApplicationContext(), event5.class);
-                startActivity(homeIntent);
-            }
-        });
+//        Button evnt5 = (Button) findViewById(R.id.evnt5);
+//
+//        evnt5.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent homeIntent = new Intent(getApplicationContext(), event5.class);
+//                startActivity(homeIntent);
+//            }
+//        });
 
         Button edp = (Button) findViewById(R.id.edp);
 
         edp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent homeIntent = new Intent(getApplicationContext(), event_detail3.class);
+                Intent homeIntent = new Intent(getApplicationContext(), event5.class);
+                startActivity(homeIntent);
+            }
+        });
+        Button edp2 = (Button) findViewById(R.id.edp2);
+
+        edp2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent homeIntent = new Intent(getApplicationContext(), event5_1.class);
                 startActivity(homeIntent);
             }
         });

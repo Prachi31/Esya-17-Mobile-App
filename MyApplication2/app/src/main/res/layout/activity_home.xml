@@ -74,4 +74,12 @@
         android:layout_alignStart="@+id/evnt3"
         android:layout_marginBottom="12dp" />
 
+    <Button
+        android:id="@+id/edp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edp"
+        android:layout_toStartOf="@+id/edp"
+        android:text="Event Detail 2" />
+
 </RelativeLayout>
